@@ -17,6 +17,13 @@ Misc commands
     # Find in cmd history
     CTRL+R
 
+
+Fix network
+
+    sudo modprobe -r e1000
+    sudo modprobe e1000
+    sudo /etc/init.d/networking restart
+
 Files
     
     md5sum filename
@@ -37,6 +44,8 @@ Files
     echo "hello" >filename
     echo "hello" >>filename 
 
+    # Output is updated on the fly
+    tail -f filename
 
 
 Remotes - ssh
