@@ -17,6 +17,22 @@ Misc commands
     # Find in cmd history
     CTRL+R
 
+Extracting
+
+    # tar.gz
+    tar zxvf file.tar.gz
+    # zip
+    unzip file.zip
+    unzip file.zip -d newdir
+
+Compressing
+
+    # zip
+    zip package.zip file1 file2
+    zip -r package.zip file folder
+    #tar
+    tar -czpf file.tar.gz file1 folder1
+    
 
 Fix network
 
